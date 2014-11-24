@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		1BC62E1D1A23E0640032D29C /* MutabilityDemo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BC62E1C1A23E0640032D29C /* MutabilityDemo.h */; };
 		1BC62E251A23E0640032D29C /* libMutabilityDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC62E191A23E0640032D29C /* libMutabilityDemo.a */; };
-		1BC62E351A23E07E0032D29C /* MDPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E341A23E07E0032D29C /* MDPhoto.m */; };
+		1BC62E351A23E07E0032D29C /* MDPhotoNaive.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E341A23E07E0032D29C /* MDPhotoNaive.m */; };
 		1BC62E381A23E0E00032D29C /* MDPhotoWithBadCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E371A23E0E00032D29C /* MDPhotoWithBadCopy.m */; };
 		1BC62E3A1A23E1290032D29C /* MDPhotoBadCopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E391A23E1290032D29C /* MDPhotoBadCopyTests.m */; };
-		1BC62E3C1A23E1F60032D29C /* MDPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E3B1A23E1F60032D29C /* MDPhotoTests.m */; };
+		1BC62E3C1A23E1F60032D29C /* MDPhotoNaiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E3B1A23E1F60032D29C /* MDPhotoNaiveTests.m */; };
 		1BC62E3F1A23E28D0032D29C /* MDPhotoWithGoodCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E3E1A23E28D0032D29C /* MDPhotoWithGoodCopy.m */; };
 		1BC62E411A23E2D00032D29C /* MDPhotoWithGoodCopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E401A23E2D00032D29C /* MDPhotoWithGoodCopyTests.m */; };
 		1BC62E441A23E35D0032D29C /* MDPhotoPrivateMutability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E431A23E35D0032D29C /* MDPhotoPrivateMutability.m */; };
@@ -49,12 +49,12 @@
 		1BC62E1C1A23E0640032D29C /* MutabilityDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutabilityDemo.h; sourceTree = "<group>"; };
 		1BC62E241A23E0640032D29C /* MutabilityDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutabilityDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC62E2A1A23E0640032D29C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BC62E331A23E07E0032D29C /* MDPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhoto.h; sourceTree = "<group>"; };
-		1BC62E341A23E07E0032D29C /* MDPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhoto.m; sourceTree = "<group>"; };
+		1BC62E331A23E07E0032D29C /* MDPhotoNaive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhotoNaive.h; sourceTree = "<group>"; };
+		1BC62E341A23E07E0032D29C /* MDPhotoNaive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoNaive.m; sourceTree = "<group>"; };
 		1BC62E361A23E0E00032D29C /* MDPhotoWithBadCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhotoWithBadCopy.h; sourceTree = "<group>"; };
 		1BC62E371A23E0E00032D29C /* MDPhotoWithBadCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoWithBadCopy.m; sourceTree = "<group>"; };
 		1BC62E391A23E1290032D29C /* MDPhotoBadCopyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoBadCopyTests.m; sourceTree = "<group>"; };
-		1BC62E3B1A23E1F60032D29C /* MDPhotoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoTests.m; sourceTree = "<group>"; };
+		1BC62E3B1A23E1F60032D29C /* MDPhotoNaiveTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoNaiveTests.m; sourceTree = "<group>"; };
 		1BC62E3D1A23E28D0032D29C /* MDPhotoWithGoodCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhotoWithGoodCopy.h; sourceTree = "<group>"; };
 		1BC62E3E1A23E28D0032D29C /* MDPhotoWithGoodCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoWithGoodCopy.m; sourceTree = "<group>"; };
 		1BC62E401A23E2D00032D29C /* MDPhotoWithGoodCopyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoWithGoodCopyTests.m; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 				1BC62E4F1A23E6DD0032D29C /* MDPhotoPublicMutabilityTests.m */,
 				1BC62E491A23E45C0032D29C /* MDPhotoPrivateMutabilityTests.m */,
 				1BC62E401A23E2D00032D29C /* MDPhotoWithGoodCopyTests.m */,
-				1BC62E3B1A23E1F60032D29C /* MDPhotoTests.m */,
+				1BC62E3B1A23E1F60032D29C /* MDPhotoNaiveTests.m */,
 				1BC62E391A23E1290032D29C /* MDPhotoBadCopyTests.m */,
 				1BC62E291A23E0640032D29C /* Supporting Files */,
 			);
@@ -140,8 +140,8 @@
 		1BC62E451A23E3CD0032D29C /* Naive Implementation */ = {
 			isa = PBXGroup;
 			children = (
-				1BC62E331A23E07E0032D29C /* MDPhoto.h */,
-				1BC62E341A23E07E0032D29C /* MDPhoto.m */,
+				1BC62E331A23E07E0032D29C /* MDPhotoNaive.h */,
+				1BC62E341A23E07E0032D29C /* MDPhotoNaive.m */,
 			);
 			name = "Naive Implementation";
 			sourceTree = "<group>";
@@ -272,7 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BC62E381A23E0E00032D29C /* MDPhotoWithBadCopy.m in Sources */,
-				1BC62E351A23E07E0032D29C /* MDPhoto.m in Sources */,
+				1BC62E351A23E07E0032D29C /* MDPhotoNaive.m in Sources */,
 				1BC62E441A23E35D0032D29C /* MDPhotoPrivateMutability.m in Sources */,
 				1BC62E3F1A23E28D0032D29C /* MDPhotoWithGoodCopy.m in Sources */,
 				1BC62E4D1A23E66C0032D29C /* MDPhotoPublicMutability.m in Sources */,
@@ -286,7 +286,7 @@
 				1BC62E411A23E2D00032D29C /* MDPhotoWithGoodCopyTests.m in Sources */,
 				1BC62E3A1A23E1290032D29C /* MDPhotoBadCopyTests.m in Sources */,
 				1BC62E501A23E6DD0032D29C /* MDPhotoPublicMutabilityTests.m in Sources */,
-				1BC62E3C1A23E1F60032D29C /* MDPhotoTests.m in Sources */,
+				1BC62E3C1A23E1F60032D29C /* MDPhotoNaiveTests.m in Sources */,
 				1BC62E4A1A23E45C0032D29C /* MDPhotoPrivateMutabilityTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

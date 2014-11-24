@@ -9,11 +9,11 @@
 #import <XCTest/XCTest.h>
 #import "MutabilityDemo.h"
 
-@interface MDPhotoTests : XCTestCase
+@interface MDPhotoNaiveTests : XCTestCase
 
 @end
 
-@implementation MDPhotoTests
+@implementation MDPhotoNaiveTests
 
 - (void)setUp {
     [super setUp];
@@ -26,7 +26,7 @@
 }
 
 - (Class)testClass {
-    return [MDPhoto class];
+    return [MDPhotoNaive class];
 }
 
 - (void)testIdentifierWithMutableString {

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "MDPhoto.h"
+#import "MDPhotoNaive.h"
 #import "MDPhotoWithBadCopy.h"
 #import "MDPhotoWithGoodCopy.h"
 #import "MDPhotoPrivateMutability.h"

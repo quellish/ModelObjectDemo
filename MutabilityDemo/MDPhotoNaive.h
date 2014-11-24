@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MDPhoto : NSObject
+@interface MDPhotoNaive : NSObject
 @property (nonatomic) NSString	*identifier;
 - (instancetype) initWithIdentifier:(NSString *)anIdentifier;
 @end

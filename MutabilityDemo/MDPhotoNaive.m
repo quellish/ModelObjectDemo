@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Dan Zinngrabe. All rights reserved.
 //
 
-#import "MDPhoto.h"
+#import "MDPhotoNaive.h"
 
-@implementation MDPhoto
+@implementation MDPhotoNaive
 @synthesize identifier;
 - (instancetype) initWithIdentifier:(NSString *)anIdentifier {
     if ((self = [super init])){

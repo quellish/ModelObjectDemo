@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BC62E1D1A23E0640032D29C /* MutabilityDemo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BC62E1C1A23E0640032D29C /* MutabilityDemo.h */; };
+		1BC62E251A23E0640032D29C /* libMutabilityDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC62E191A23E0640032D29C /* libMutabilityDemo.a */; };
+		1BC62E351A23E07E0032D29C /* MDPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E341A23E07E0032D29C /* MDPhoto.m */; };
+		1BC62E381A23E0E00032D29C /* MDPhotoWithBadCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E371A23E0E00032D29C /* MDPhotoWithBadCopy.m */; };
+		1BC62E3A1A23E1290032D29C /* MDPhotoBadCopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E391A23E1290032D29C /* MDPhotoBadCopyTests.m */; };
+		1BC62E3C1A23E1F60032D29C /* MDPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E3B1A23E1F60032D29C /* MDPhotoTests.m */; };
+		1BC62E3F1A23E28D0032D29C /* MDPhotoWithGoodCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E3E1A23E28D0032D29C /* MDPhotoWithGoodCopy.m */; };
+		1BC62E411A23E2D00032D29C /* MDPhotoWithGoodCopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E401A23E2D00032D29C /* MDPhotoWithGoodCopyTests.m */; };
+		1BC62E441A23E35D0032D29C /* MDPhotoPrivateMutability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E431A23E35D0032D29C /* MDPhotoPrivateMutability.m */; };
+		1BC62E4A1A23E45C0032D29C /* MDPhotoPrivateMutabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E491A23E45C0032D29C /* MDPhotoPrivateMutabilityTests.m */; };
+		1BC62E4D1A23E66C0032D29C /* MDPhotoPublicMutability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E4C1A23E66C0032D29C /* MDPhotoPublicMutability.m */; };
+		1BC62E501A23E6DD0032D29C /* MDPhotoPublicMutabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E4F1A23E6DD0032D29C /* MDPhotoPublicMutabilityTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BC62E261A23E0640032D29C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BC62E111A23E0640032D29C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BC62E181A23E0640032D29C;
+			remoteInfo = MutabilityDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1BC62E171A23E0640032D29C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1BC62E1D1A23E0640032D29C /* MutabilityDemo.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1BC62E191A23E0640032D29C /* libMutabilityDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMutabilityDemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC62E1C1A23E0640032D29C /* MutabilityDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutabilityDemo.h; sourceTree = "<group>"; };
+		1BC62E241A23E0640032D29C /* MutabilityDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutabilityDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC62E2A1A23E0640032D29C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BC62E331A23E07E0032D29C /* MDPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhoto.h; sourceTree = "<group>"; };
+		1BC62E341A23E07E0032D29C /* MDPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhoto.m; sourceTree = "<group>"; };
+		1BC62E361A23E0E00032D29C /* MDPhotoWithBadCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhotoWithBadCopy.h; sourceTree = "<group>"; };
+		1BC62E371A23E0E00032D29C /* MDPhotoWithBadCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoWithBadCopy.m; sourceTree = "<group>"; };
+		1BC62E391A23E1290032D29C /* MDPhotoBadCopyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoBadCopyTests.m; sourceTree = "<group>"; };
+		1BC62E3B1A23E1F60032D29C /* MDPhotoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoTests.m; sourceTree = "<group>"; };
+		1BC62E3D1A23E28D0032D29C /* MDPhotoWithGoodCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhotoWithGoodCopy.h; sourceTree = "<group>"; };
+		1BC62E3E1A23E28D0032D29C /* MDPhotoWithGoodCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoWithGoodCopy.m; sourceTree = "<group>"; };
+		1BC62E401A23E2D00032D29C /* MDPhotoWithGoodCopyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoWithGoodCopyTests.m; sourceTree = "<group>"; };
+		1BC62E421A23E35D0032D29C /* MDPhotoPrivateMutability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhotoPrivateMutability.h; sourceTree = "<group>"; };
+		1BC62E431A23E35D0032D29C /* MDPhotoPrivateMutability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoPrivateMutability.m; sourceTree = "<group>"; };
+		1BC62E491A23E45C0032D29C /* MDPhotoPrivateMutabilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoPrivateMutabilityTests.m; sourceTree = "<group>"; };
+		1BC62E4B1A23E66C0032D29C /* MDPhotoPublicMutability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhotoPublicMutability.h; sourceTree = "<group>"; };
+		1BC62E4C1A23E66C0032D29C /* MDPhotoPublicMutability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoPublicMutability.m; sourceTree = "<group>"; };
+		1BC62E4F1A23E6DD0032D29C /* MDPhotoPublicMutabilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoPublicMutabilityTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BC62E161A23E0640032D29C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC62E211A23E0640032D29C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC62E251A23E0640032D29C /* libMutabilityDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BC62E101A23E0640032D29C = {
+			isa = PBXGroup;
+			children = (
+				1BC62E1B1A23E0640032D29C /* MutabilityDemo */,
+				1BC62E281A23E0640032D29C /* MutabilityDemoTests */,
+				1BC62E1A1A23E0640032D29C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BC62E1A1A23E0640032D29C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BC62E191A23E0640032D29C /* libMutabilityDemo.a */,
+				1BC62E241A23E0640032D29C /* MutabilityDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BC62E1B1A23E0640032D29C /* MutabilityDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1BC62E1C1A23E0640032D29C /* MutabilityDemo.h */,
+				1BC62E451A23E3CD0032D29C /* Naive Implementation */,
+				1BC62E461A23E3DC0032D29C /* Incorrect Copy Implementation */,
+				1BC62E471A23E3E90032D29C /* Correct Copy Implementation */,
+				1BC62E481A23E3FA0032D29C /* Private Mutability Implementation */,
+				1BC62E4E1A23E6730032D29C /* Public Mutability Implementation */,
+			);
+			path = MutabilityDemo;
+			sourceTree = "<group>";
+		};
+		1BC62E281A23E0640032D29C /* MutabilityDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BC62E4F1A23E6DD0032D29C /* MDPhotoPublicMutabilityTests.m */,
+				1BC62E491A23E45C0032D29C /* MDPhotoPrivateMutabilityTests.m */,
+				1BC62E401A23E2D00032D29C /* MDPhotoWithGoodCopyTests.m */,
+				1BC62E3B1A23E1F60032D29C /* MDPhotoTests.m */,
+				1BC62E391A23E1290032D29C /* MDPhotoBadCopyTests.m */,
+				1BC62E291A23E0640032D29C /* Supporting Files */,
+			);
+			path = MutabilityDemoTests;
+			sourceTree = "<group>";
+		};
+		1BC62E291A23E0640032D29C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BC62E2A1A23E0640032D29C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BC62E451A23E3CD0032D29C /* Naive Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				1BC62E331A23E07E0032D29C /* MDPhoto.h */,
+				1BC62E341A23E07E0032D29C /* MDPhoto.m */,
+			);
+			name = "Naive Implementation";
+			sourceTree = "<group>";
+		};
+		1BC62E461A23E3DC0032D29C /* Incorrect Copy Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				1BC62E361A23E0E00032D29C /* MDPhotoWithBadCopy.h */,
+				1BC62E371A23E0E00032D29C /* MDPhotoWithBadCopy.m */,
+			);
+			name = "Incorrect Copy Implementation";
+			sourceTree = "<group>";
+		};
+		1BC62E471A23E3E90032D29C /* Correct Copy Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				1BC62E3D1A23E28D0032D29C /* MDPhotoWithGoodCopy.h */,
+				1BC62E3E1A23E28D0032D29C /* MDPhotoWithGoodCopy.m */,
+			);
+			name = "Correct Copy Implementation";
+			sourceTree = "<group>";
+		};
+		1BC62E481A23E3FA0032D29C /* Private Mutability Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				1BC62E421A23E35D0032D29C /* MDPhotoPrivateMutability.h */,
+				1BC62E431A23E35D0032D29C /* MDPhotoPrivateMutability.m */,
+			);
+			name = "Private Mutability Implementation";
+			sourceTree = "<group>";
+		};
+		1BC62E4E1A23E6730032D29C /* Public Mutability Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				1BC62E4B1A23E66C0032D29C /* MDPhotoPublicMutability.h */,
+				1BC62E4C1A23E66C0032D29C /* MDPhotoPublicMutability.m */,
+			);
+			name = "Public Mutability Implementation";
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BC62E181A23E0640032D29C /* MutabilityDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC62E2D1A23E0640032D29C /* Build configuration list for PBXNativeTarget "MutabilityDemo" */;
+			buildPhases = (
+				1BC62E151A23E0640032D29C /* Sources */,
+				1BC62E161A23E0640032D29C /* Frameworks */,
+				1BC62E171A23E0640032D29C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutabilityDemo;
+			productName = MutabilityDemo;
+			productReference = 1BC62E191A23E0640032D29C /* libMutabilityDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1BC62E231A23E0640032D29C /* MutabilityDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC62E301A23E0640032D29C /* Build configuration list for PBXNativeTarget "MutabilityDemoTests" */;
+			buildPhases = (
+				1BC62E201A23E0640032D29C /* Sources */,
+				1BC62E211A23E0640032D29C /* Frameworks */,
+				1BC62E221A23E0640032D29C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BC62E271A23E0640032D29C /* PBXTargetDependency */,
+			);
+			name = MutabilityDemoTests;
+			productName = MutabilityDemoTests;
+			productReference = 1BC62E241A23E0640032D29C /* MutabilityDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BC62E111A23E0640032D29C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Dan Zinngrabe";
+				TargetAttributes = {
+					1BC62E181A23E0640032D29C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1BC62E231A23E0640032D29C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 1BC62E141A23E0640032D29C /* Build configuration list for PBXProject "MutabilityDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1BC62E101A23E0640032D29C;
+			productRefGroup = 1BC62E1A1A23E0640032D29C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BC62E181A23E0640032D29C /* MutabilityDemo */,
+				1BC62E231A23E0640032D29C /* MutabilityDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BC62E221A23E0640032D29C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BC62E151A23E0640032D29C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC62E381A23E0E00032D29C /* MDPhotoWithBadCopy.m in Sources */,
+				1BC62E351A23E07E0032D29C /* MDPhoto.m in Sources */,
+				1BC62E441A23E35D0032D29C /* MDPhotoPrivateMutability.m in Sources */,
+				1BC62E3F1A23E28D0032D29C /* MDPhotoWithGoodCopy.m in Sources */,
+				1BC62E4D1A23E66C0032D29C /* MDPhotoPublicMutability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC62E201A23E0640032D29C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC62E411A23E2D00032D29C /* MDPhotoWithGoodCopyTests.m in Sources */,
+				1BC62E3A1A23E1290032D29C /* MDPhotoBadCopyTests.m in Sources */,
+				1BC62E501A23E6DD0032D29C /* MDPhotoPublicMutabilityTests.m in Sources */,
+				1BC62E3C1A23E1F60032D29C /* MDPhotoTests.m in Sources */,
+				1BC62E4A1A23E45C0032D29C /* MDPhotoPrivateMutabilityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BC62E271A23E0640032D29C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BC62E181A23E0640032D29C /* MutabilityDemo */;
+			targetProxy = 1BC62E261A23E0640032D29C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BC62E2B1A23E0640032D29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1BC62E2C1A23E0640032D29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BC62E2E1A23E0640032D29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1BC62E2F1A23E0640032D29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1BC62E311A23E0640032D29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MutabilityDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BC62E321A23E0640032D29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MutabilityDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BC62E141A23E0640032D29C /* Build configuration list for PBXProject "MutabilityDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC62E2B1A23E0640032D29C /* Debug */,
+				1BC62E2C1A23E0640032D29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC62E2D1A23E0640032D29C /* Build configuration list for PBXNativeTarget "MutabilityDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC62E2E1A23E0640032D29C /* Debug */,
+				1BC62E2F1A23E0640032D29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1BC62E301A23E0640032D29C /* Build configuration list for PBXNativeTarget "MutabilityDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC62E311A23E0640032D29C /* Debug */,
+				1BC62E321A23E0640032D29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BC62E111A23E0640032D29C /* Project object */;
+}

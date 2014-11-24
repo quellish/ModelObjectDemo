@@ -13,3 +13,7 @@
 #import "MDPhotoWithGoodCopy.h"
 #import "MDPhotoPrivateMutability.h"
 #import "MDPhotoPublicMutability.h"
+
+#import "MDPhotoNSCopying.h"
+#import "MDMutablePhotoNSMutableCopying.h"
+

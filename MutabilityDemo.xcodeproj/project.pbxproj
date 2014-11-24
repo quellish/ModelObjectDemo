@@ -19,6 +19,8 @@
 		1BC62E4A1A23E45C0032D29C /* MDPhotoPrivateMutabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E491A23E45C0032D29C /* MDPhotoPrivateMutabilityTests.m */; };
 		1BC62E4D1A23E66C0032D29C /* MDPhotoPublicMutability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E4C1A23E66C0032D29C /* MDPhotoPublicMutability.m */; };
 		1BC62E501A23E6DD0032D29C /* MDPhotoPublicMutabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E4F1A23E6DD0032D29C /* MDPhotoPublicMutabilityTests.m */; };
+		1BC62E541A23ED740032D29C /* MDPhotoNSCopying.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E531A23ED740032D29C /* MDPhotoNSCopying.m */; };
+		1BC62E571A23ED920032D29C /* MDMutablePhotoNSMutableCopying.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E561A23ED920032D29C /* MDMutablePhotoNSMutableCopying.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,10 @@
 		1BC62E4B1A23E66C0032D29C /* MDPhotoPublicMutability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhotoPublicMutability.h; sourceTree = "<group>"; };
 		1BC62E4C1A23E66C0032D29C /* MDPhotoPublicMutability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoPublicMutability.m; sourceTree = "<group>"; };
 		1BC62E4F1A23E6DD0032D29C /* MDPhotoPublicMutabilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoPublicMutabilityTests.m; sourceTree = "<group>"; };
+		1BC62E521A23ED740032D29C /* MDPhotoNSCopying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhotoNSCopying.h; sourceTree = "<group>"; };
+		1BC62E531A23ED740032D29C /* MDPhotoNSCopying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoNSCopying.m; sourceTree = "<group>"; };
+		1BC62E551A23ED920032D29C /* MDMutablePhotoNSMutableCopying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMutablePhotoNSMutableCopying.h; sourceTree = "<group>"; };
+		1BC62E561A23ED920032D29C /* MDMutablePhotoNSMutableCopying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMutablePhotoNSMutableCopying.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				1BC62E1C1A23E0640032D29C /* MutabilityDemo.h */,
-				1BC62E451A23E3CD0032D29C /* Naive Implementation */,
-				1BC62E461A23E3DC0032D29C /* Incorrect Copy Implementation */,
-				1BC62E471A23E3E90032D29C /* Correct Copy Implementation */,
-				1BC62E481A23E3FA0032D29C /* Private Mutability Implementation */,
-				1BC62E4E1A23E6730032D29C /* Public Mutability Implementation */,
+				1BC62E511A23EC410032D29C /* Declaring Properties */,
+				1BC62E581A23F06C0032D29C /* NSCopying */,
 			);
 			path = MutabilityDemo;
 			sourceTree = "<group>";
@@ -181,6 +184,29 @@
 			);
 			name = "Public Mutability Implementation";
 			path = ..;
+			sourceTree = "<group>";
+		};
+		1BC62E511A23EC410032D29C /* Declaring Properties */ = {
+			isa = PBXGroup;
+			children = (
+				1BC62E451A23E3CD0032D29C /* Naive Implementation */,
+				1BC62E461A23E3DC0032D29C /* Incorrect Copy Implementation */,
+				1BC62E471A23E3E90032D29C /* Correct Copy Implementation */,
+				1BC62E481A23E3FA0032D29C /* Private Mutability Implementation */,
+				1BC62E4E1A23E6730032D29C /* Public Mutability Implementation */,
+			);
+			name = "Declaring Properties";
+			sourceTree = "<group>";
+		};
+		1BC62E581A23F06C0032D29C /* NSCopying */ = {
+			isa = PBXGroup;
+			children = (
+				1BC62E521A23ED740032D29C /* MDPhotoNSCopying.h */,
+				1BC62E531A23ED740032D29C /* MDPhotoNSCopying.m */,
+				1BC62E551A23ED920032D29C /* MDMutablePhotoNSMutableCopying.h */,
+				1BC62E561A23ED920032D29C /* MDMutablePhotoNSMutableCopying.m */,
+			);
+			name = NSCopying;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,11 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC62E571A23ED920032D29C /* MDMutablePhotoNSMutableCopying.m in Sources */,
 				1BC62E381A23E0E00032D29C /* MDPhotoWithBadCopy.m in Sources */,
 				1BC62E351A23E07E0032D29C /* MDPhotoNaive.m in Sources */,
 				1BC62E441A23E35D0032D29C /* MDPhotoPrivateMutability.m in Sources */,
 				1BC62E3F1A23E28D0032D29C /* MDPhotoWithGoodCopy.m in Sources */,
 				1BC62E4D1A23E66C0032D29C /* MDPhotoPublicMutability.m in Sources */,
+				1BC62E541A23ED740032D29C /* MDPhotoNSCopying.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

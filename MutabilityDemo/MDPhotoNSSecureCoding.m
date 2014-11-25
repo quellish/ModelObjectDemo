@@ -54,7 +54,9 @@
     return YES;
 }
 
-// Overriding these two NSObject methods allows us to specify a specific class for
+#pragma mark NSObject NSCoderMethods Informal Protocol Methods
+
+// Overriding these NSObject methods allows us to specify a specific class for
 // NSCoding and NSKeyedArchiving. This helps us ensure that subclasses return the correct class from keyed archiving
 // In our case, we want to always return the immutable superclass from archiving.
 - (Class) classForCoder {

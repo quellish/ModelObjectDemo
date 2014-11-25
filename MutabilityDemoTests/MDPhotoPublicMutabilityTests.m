@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "MutabilityDemo.h"
+
 @interface MDPhotoPublicMutabilityTests : XCTestCase
 
 @end

@@ -110,6 +110,8 @@
     restoredObject = [NSKeyedUnarchiver unarchiveObjectWithData:archive];
     XCTAssertNotNil(restoredObject, @"NSKeyedUnarchiver was not able to unarchive object");
     XCTAssertFalse([restoredObject respondsToSelector:@selector(setIdentifier:)], @"Unarchived object does respond to writable selector.");
+    
+    XCTAssertTrue([[restoredObject identifier] isEqualToString:[testObject identifier]], @"Unarchived object property does not match source object. Test object:%@ Archive object:%@", [testObject identifier], [restoredObject identifier]);
 
 }
 

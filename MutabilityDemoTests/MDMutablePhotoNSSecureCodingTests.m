@@ -113,6 +113,8 @@
     // Keyed archiving should return an immutable object.
     XCTAssertFalse([restoredObject respondsToSelector:@selector(setIdentifier:)], @"Unarchived object does respond to writable selector.");
     
+    XCTAssertTrue([[restoredObject identifier] isEqualToString:[testObject identifier]], @"Unarchived object property does not match source object. Test object:%@ Archive object:%@", [testObject identifier], [restoredObject identifier]);
+    
 }
 
 @end

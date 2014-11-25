@@ -17,3 +17,6 @@
 #import "MDPhotoNSCopying.h"
 #import "MDMutablePhotoNSMutableCopying.h"
 
+#import "MDPhotoNSSecureCoding.h"
+#import "MDMutablePhotoNSSecureCoding.h"
+

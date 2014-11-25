@@ -1,15 +1,14 @@
 //
-//  MDMutablePhoto.m
+//  MDMutablePhotoNSSecureCoding.m
 //  MutabilityDemo
 //
-//  Created by Dan Zinngrabe on 11/24/14.
+//  Created by Dan Zinngrabe on 11/25/14.
 //  Copyright (c) 2014 Dan Zinngrabe. All rights reserved.
 //
 
-#import "MDMutablePhotoNSMutableCopying.h"
+#import "MDMutablePhotoNSSecureCoding.h"
 
-
-@implementation MDMutablePhotoNSMutableCopying
+@implementation MDMutablePhotoNSSecureCoding
 @synthesize identifier;
 
 - (instancetype) initWithIdentifier:(NSString *)anIdentifier {
@@ -24,7 +23,7 @@
     return self;
 }
 
-#pragma mark NSCoding
+#pragma mark NSCoping
 
 /**
  *  We override copyWithZone: to return an instance of our immutable superclass.
@@ -32,7 +31,7 @@
  */
 
 - (id) copyWithZone:(NSZone *)__unused zone {
-    MDPhotoNSCopying *result = [[MDPhotoNSCopying alloc] initWithIdentifier:[self identifier]];
+    MDPhotoNSSecureCoding *result = [[MDPhotoNSSecureCoding alloc] initWithIdentifier:[self identifier]];
     return result;
 }
 
@@ -45,9 +44,9 @@
  *  needing any knowledge of it's subclasses.
  */
 
-@implementation MDPhotoNSCopying (MutableCopying)
+@implementation MDPhotoNSSecureCoding (MutableCopying)
 - (id) mutableCopyWithZone:(NSZone *)__unused zone {
-    MDMutablePhotoNSMutableCopying  *result = [[MDMutablePhotoNSMutableCopying alloc] initWithIdentifier:[self identifier]];
+    MDMutablePhotoNSSecureCoding  *result = [[MDMutablePhotoNSSecureCoding alloc] initWithIdentifier:[self identifier]];
     return result;
 }
 

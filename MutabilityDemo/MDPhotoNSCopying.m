@@ -21,6 +21,8 @@
     return self;
 }
 
+#pragma mark NSCopying
+
 - (id) copyWithZone:(NSZone *)__unused zone {
     // Returning self is effective only under the following conditions:
     // 1. The object is immutable.

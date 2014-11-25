@@ -15,20 +15,11 @@
 
 @implementation MDPhotoNaiveTests
 
-- (void)setUp {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
 - (Class)testClass {
     return [MDPhotoNaive class];
 }
 
+// This test will fail
 - (void)testIdentifierWithMutableString {
     id                  testObject = nil;
     NSMutableString     *testString = nil;

@@ -9,7 +9,7 @@
 #import "MDPhotoNSCopying.h"
 
 @interface MDPhotoNSCopying ()
-@property   (nonatomic, readwrite, copy)    NSString    *identifier;
+
 @end
 
 @implementation MDPhotoNSCopying

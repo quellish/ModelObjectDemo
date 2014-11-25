@@ -12,6 +12,10 @@
 @property (nonatomic, readwrite, copy) NSString	*identifier;
 @end
 
+/**
+ *  Category to provide NSMutableCopying to the MDPhotoNSCopying superclass
+ */
+
 @interface MDPhotoNSCopying (MutableCopying)<NSMutableCopying>
 - (id) mutableCopyWithZone:(NSZone *)zone;
 @end

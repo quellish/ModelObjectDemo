@@ -8,12 +8,18 @@
 
 #import "MDMutablePhotoNSMutableCopying.h"
 
+
 @implementation MDMutablePhotoNSMutableCopying
-@dynamic identifier;
+@synthesize identifier;
 
 - (instancetype) initWithIdentifier:(NSString *)anIdentifier {
     if ((self = [super initWithIdentifier:anIdentifier])){
-        
+        // Because we redeclared the property, we also had to synthesize it again as well
+        // Auto-synthesis would just use the superclass implementation, which would be read only
+        // To have the property be writable, synthesize creates new storage independant of the superclass
+        // which means the call to [super initWithIdentifier:] will not set the property on the correct storage.
+        // So we have to do this again in the subclass.
+        identifier = [anIdentifier copy];
     }
     return self;
 }

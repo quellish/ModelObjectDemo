@@ -35,8 +35,13 @@
     return self;
 }
 
+// Note that for any weak property values you should use encodeConditionalObject:forKey:
+
 - (void)encodeWithCoder:(NSCoder *)encoder {
-    [encoder encodeObject:self.identifier forKey:@"identifier"];;
+    [encoder encodeObject:[self identifier] forKey:@"identifier"];
+    // Include a version number. If the object changes significantly in a future version, this makes it much
+    // easier to migrate data from older archives.
+    [encoder encodeObject:[self currentVersionNumber] forKey:@"version"];
 }
 
 + (BOOL) supportsSecureCoding {
@@ -52,6 +57,19 @@
 
 - (Class) classForKeyedArchiver {
     return [MDPhotoNSSecureCoding class];
+}
+
+#pragma mark Private Methods
+
+// Private method for getting a version number for archiving.
+- (NSNumber *)currentVersionNumber {
+    NSNumber    *result         = nil;
+    NSBundle    *bundle         = [NSBundle bundleForClass:[self class]];
+    NSString    *versionString  = nil;
+    
+    versionString = [bundle objectForInfoDictionaryKey:(NSString *)kCFBundleVersionKey];
+    result = [NSNumber numberWithDouble:[versionString doubleValue]];
+    return result;
 }
 
 @end

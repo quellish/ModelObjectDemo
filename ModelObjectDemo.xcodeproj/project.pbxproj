@@ -75,8 +75,8 @@
 		1BC62E421A23E35D0032D29C /* MDPhotoPrivateMutability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhotoPrivateMutability.h; sourceTree = "<group>"; };
 		1BC62E431A23E35D0032D29C /* MDPhotoPrivateMutability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoPrivateMutability.m; sourceTree = "<group>"; };
 		1BC62E491A23E45C0032D29C /* MDPhotoPrivateMutabilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoPrivateMutabilityTests.m; sourceTree = "<group>"; };
-		1BC62E4B1A23E66C0032D29C /* MDPhotoPublicMutability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhotoPublicMutability.h; sourceTree = "<group>"; };
-		1BC62E4C1A23E66C0032D29C /* MDPhotoPublicMutability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoPublicMutability.m; sourceTree = "<group>"; };
+		1BC62E4B1A23E66C0032D29C /* MDPhotoPublicMutability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDPhotoPublicMutability.h; path = MutabilityDemo/MDPhotoPublicMutability.h; sourceTree = "<group>"; };
+		1BC62E4C1A23E66C0032D29C /* MDPhotoPublicMutability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDPhotoPublicMutability.m; path = MutabilityDemo/MDPhotoPublicMutability.m; sourceTree = "<group>"; };
 		1BC62E4F1A23E6DD0032D29C /* MDPhotoPublicMutabilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoPublicMutabilityTests.m; sourceTree = "<group>"; };
 		1BC62E521A23ED740032D29C /* MDPhotoNSCopying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhotoNSCopying.h; sourceTree = "<group>"; };
 		1BC62E531A23ED740032D29C /* MDPhotoNSCopying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoNSCopying.m; sourceTree = "<group>"; };

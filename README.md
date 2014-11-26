@@ -143,3 +143,6 @@ For an example:
 The Core Data framework for object graph management has it's own object modeling capabilities. `NSManagedObject` subclasses descend from `NSObject` but have very different needs. Managed objects are owned and observed by a managed object context, and are essentially a structured collection of references to data that exists elsewhere. Because of this, implementing `NSSecureCoding` or `NSCopying` rarely makes sense. The behavior and life cycle of a managed object is controlled by the managed object context, making it difficult to build truly unique and independant instances of a model object that have the same values.
 
 Core Data model objects will be the subject of a future post.
+
+Link to original post:
+[http://quellish.tumblr.com/post/103620381042/creating-great-model-objects-for-ios](http://quellish.tumblr.com/post/103620381042/creating-great-model-objects-for-ios)

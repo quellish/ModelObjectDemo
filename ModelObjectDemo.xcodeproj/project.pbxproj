@@ -11,8 +11,8 @@
 		1B86534D1A24FDBF00F7036D /* MDMutablePhotoNSSecureCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86534C1A24FDBF00F7036D /* MDMutablePhotoNSSecureCoding.m */; };
 		1B8653501A24FFBE00F7036D /* MDPhotoNSSecureCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86534F1A24FFBE00F7036D /* MDPhotoNSSecureCodingTests.m */; };
 		1B8653521A25018800F7036D /* MDMutablePhotoNSSecureCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8653511A25018800F7036D /* MDMutablePhotoNSSecureCodingTests.m */; };
-		1BC62E1D1A23E0640032D29C /* MutabilityDemo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BC62E1C1A23E0640032D29C /* MutabilityDemo.h */; };
-		1BC62E251A23E0640032D29C /* libMutabilityDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC62E191A23E0640032D29C /* libMutabilityDemo.a */; };
+		1BC62E1D1A23E0640032D29C /* ModelObjectDemo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BC62E1C1A23E0640032D29C /* ModelObjectDemo.h */; };
+		1BC62E251A23E0640032D29C /* libModelObjectDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC62E191A23E0640032D29C /* libModelObjectDemo.a */; };
 		1BC62E351A23E07E0032D29C /* MDPhotoNaive.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E341A23E07E0032D29C /* MDPhotoNaive.m */; };
 		1BC62E381A23E0E00032D29C /* MDPhotoWithBadCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E371A23E0E00032D29C /* MDPhotoWithBadCopy.m */; };
 		1BC62E3A1A23E1290032D29C /* MDPhotoBadCopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E391A23E1290032D29C /* MDPhotoBadCopyTests.m */; };
@@ -46,7 +46,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				1BC62E1D1A23E0640032D29C /* MutabilityDemo.h in CopyFiles */,
+				1BC62E1D1A23E0640032D29C /* ModelObjectDemo.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +59,9 @@
 		1B86534C1A24FDBF00F7036D /* MDMutablePhotoNSSecureCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMutablePhotoNSSecureCoding.m; sourceTree = "<group>"; };
 		1B86534F1A24FFBE00F7036D /* MDPhotoNSSecureCodingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoNSSecureCodingTests.m; sourceTree = "<group>"; };
 		1B8653511A25018800F7036D /* MDMutablePhotoNSSecureCodingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMutablePhotoNSSecureCodingTests.m; sourceTree = "<group>"; };
-		1BC62E191A23E0640032D29C /* libMutabilityDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMutabilityDemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BC62E1C1A23E0640032D29C /* MutabilityDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutabilityDemo.h; sourceTree = "<group>"; };
-		1BC62E241A23E0640032D29C /* MutabilityDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutabilityDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC62E191A23E0640032D29C /* libModelObjectDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libModelObjectDemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC62E1C1A23E0640032D29C /* ModelObjectDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelObjectDemo.h; sourceTree = "<group>"; };
+		1BC62E241A23E0640032D29C /* ModelObjectDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelObjectDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC62E2A1A23E0640032D29C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BC62E331A23E07E0032D29C /* MDPhotoNaive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPhotoNaive.h; sourceTree = "<group>"; };
 		1BC62E341A23E07E0032D29C /* MDPhotoNaive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoNaive.m; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC62E251A23E0640032D29C /* libMutabilityDemo.a in Frameworks */,
+				1BC62E251A23E0640032D29C /* libModelObjectDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,8 +189,8 @@
 		1BC62E101A23E0640032D29C = {
 			isa = PBXGroup;
 			children = (
-				1BC62E1B1A23E0640032D29C /* MutabilityDemo */,
-				1BC62E281A23E0640032D29C /* MutabilityDemoTests */,
+				1BC62E1B1A23E0640032D29C /* ModelObjectDemo */,
+				1BC62E281A23E0640032D29C /* ModelObjectDemoTests */,
 				1BC62E1A1A23E0640032D29C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -198,24 +198,25 @@
 		1BC62E1A1A23E0640032D29C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BC62E191A23E0640032D29C /* libMutabilityDemo.a */,
-				1BC62E241A23E0640032D29C /* MutabilityDemoTests.xctest */,
+				1BC62E191A23E0640032D29C /* libModelObjectDemo.a */,
+				1BC62E241A23E0640032D29C /* ModelObjectDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1BC62E1B1A23E0640032D29C /* MutabilityDemo */ = {
+		1BC62E1B1A23E0640032D29C /* ModelObjectDemo */ = {
 			isa = PBXGroup;
 			children = (
-				1BC62E1C1A23E0640032D29C /* MutabilityDemo.h */,
+				1BC62E1C1A23E0640032D29C /* ModelObjectDemo.h */,
 				1BC62E511A23EC410032D29C /* Declaring Properties */,
 				1BC62E581A23F06C0032D29C /* NSCopying */,
 				1B86534E1A24FDC400F7036D /* NSSecureCoding */,
 			);
+			name = ModelObjectDemo;
 			path = MutabilityDemo;
 			sourceTree = "<group>";
 		};
-		1BC62E281A23E0640032D29C /* MutabilityDemoTests */ = {
+		1BC62E281A23E0640032D29C /* ModelObjectDemoTests */ = {
 			isa = PBXGroup;
 			children = (
 				1B86535A1A25045800F7036D /* Declaring Properties */,
@@ -223,6 +224,7 @@
 				1B8653531A25039500F7036D /* NSSecureCoding */,
 				1BC62E291A23E0640032D29C /* Supporting Files */,
 			);
+			name = ModelObjectDemoTests;
 			path = MutabilityDemoTests;
 			sourceTree = "<group>";
 		};
@@ -306,9 +308,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BC62E181A23E0640032D29C /* MutabilityDemo */ = {
+		1BC62E181A23E0640032D29C /* ModelObjectDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BC62E2D1A23E0640032D29C /* Build configuration list for PBXNativeTarget "MutabilityDemo" */;
+			buildConfigurationList = 1BC62E2D1A23E0640032D29C /* Build configuration list for PBXNativeTarget "ModelObjectDemo" */;
 			buildPhases = (
 				1BC62E151A23E0640032D29C /* Sources */,
 				1BC62E161A23E0640032D29C /* Frameworks */,
@@ -318,14 +320,14 @@
 			);
 			dependencies = (
 			);
-			name = MutabilityDemo;
+			name = ModelObjectDemo;
 			productName = MutabilityDemo;
-			productReference = 1BC62E191A23E0640032D29C /* libMutabilityDemo.a */;
+			productReference = 1BC62E191A23E0640032D29C /* libModelObjectDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		1BC62E231A23E0640032D29C /* MutabilityDemoTests */ = {
+		1BC62E231A23E0640032D29C /* ModelObjectDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BC62E301A23E0640032D29C /* Build configuration list for PBXNativeTarget "MutabilityDemoTests" */;
+			buildConfigurationList = 1BC62E301A23E0640032D29C /* Build configuration list for PBXNativeTarget "ModelObjectDemoTests" */;
 			buildPhases = (
 				1BC62E201A23E0640032D29C /* Sources */,
 				1BC62E211A23E0640032D29C /* Frameworks */,
@@ -336,9 +338,9 @@
 			dependencies = (
 				1BC62E271A23E0640032D29C /* PBXTargetDependency */,
 			);
-			name = MutabilityDemoTests;
+			name = ModelObjectDemoTests;
 			productName = MutabilityDemoTests;
-			productReference = 1BC62E241A23E0640032D29C /* MutabilityDemoTests.xctest */;
+			productReference = 1BC62E241A23E0640032D29C /* ModelObjectDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -358,7 +360,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1BC62E141A23E0640032D29C /* Build configuration list for PBXProject "MutabilityDemo" */;
+			buildConfigurationList = 1BC62E141A23E0640032D29C /* Build configuration list for PBXProject "ModelObjectDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -370,8 +372,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BC62E181A23E0640032D29C /* MutabilityDemo */,
-				1BC62E231A23E0640032D29C /* MutabilityDemoTests */,
+				1BC62E181A23E0640032D29C /* ModelObjectDemo */,
+				1BC62E231A23E0640032D29C /* ModelObjectDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -424,7 +426,7 @@
 /* Begin PBXTargetDependency section */
 		1BC62E271A23E0640032D29C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1BC62E181A23E0640032D29C /* MutabilityDemo */;
+			target = 1BC62E181A23E0640032D29C /* ModelObjectDemo */;
 			targetProxy = 1BC62E261A23E0640032D29C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -510,7 +512,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ModelObjectDemo;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -519,7 +521,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ModelObjectDemo;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -537,7 +539,7 @@
 				);
 				INFOPLIST_FILE = MutabilityDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ModelObjectDemoTests;
 			};
 			name = Debug;
 		};
@@ -550,14 +552,14 @@
 				);
 				INFOPLIST_FILE = MutabilityDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ModelObjectDemoTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BC62E141A23E0640032D29C /* Build configuration list for PBXProject "MutabilityDemo" */ = {
+		1BC62E141A23E0640032D29C /* Build configuration list for PBXProject "ModelObjectDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BC62E2B1A23E0640032D29C /* Debug */,
@@ -566,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BC62E2D1A23E0640032D29C /* Build configuration list for PBXNativeTarget "MutabilityDemo" */ = {
+		1BC62E2D1A23E0640032D29C /* Build configuration list for PBXNativeTarget "ModelObjectDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BC62E2E1A23E0640032D29C /* Debug */,
@@ -575,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BC62E301A23E0640032D29C /* Build configuration list for PBXNativeTarget "MutabilityDemoTests" */ = {
+		1BC62E301A23E0640032D29C /* Build configuration list for PBXNativeTarget "ModelObjectDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BC62E311A23E0640032D29C /* Debug */,

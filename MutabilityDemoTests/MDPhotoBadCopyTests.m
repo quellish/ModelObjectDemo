@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "MutabilityDemo.h"
+#import "ModelObjectDemo.h"
 
 @interface MDPhotoBadCopyTests : XCTestCase
 
@@ -20,6 +20,7 @@
 }
 
 // This test will fail
+// The implementation under test allows the contents of the string to be changed after it has been set
 - (void)testIdentifierWithMutableString {
     id                  testObject = nil;
     NSMutableString     *testString = nil;

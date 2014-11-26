@@ -1,5 +1,5 @@
 //
-//  MutabilityDemo.h
+//  ModelObjectDemo.h
 //  MutabilityDemo
 //
 //  Created by Dan Zinngrabe on 11/24/14.

@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "MutabilityDemo.h"
+#import "ModelObjectDemo.h"
 
 
 @interface MDMutablePhotoNSCopyingTests : XCTestCase

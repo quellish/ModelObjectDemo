@@ -539,7 +539,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = MutabilityDemoTests/Info.plist;
+				INFOPLIST_FILE = ModelObjectDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = ModelObjectDemoTests;
 			};
@@ -552,7 +552,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = MutabilityDemoTests/Info.plist;
+				INFOPLIST_FILE = ModelObjectDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = ModelObjectDemoTests;
 			};

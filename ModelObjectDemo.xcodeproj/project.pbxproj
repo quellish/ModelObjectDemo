@@ -212,8 +212,7 @@
 				1BC62E581A23F06C0032D29C /* NSCopying */,
 				1B86534E1A24FDC400F7036D /* NSSecureCoding */,
 			);
-			name = ModelObjectDemo;
-			path = MutabilityDemo;
+			path = ModelObjectDemo;
 			sourceTree = "<group>";
 		};
 		1BC62E281A23E0640032D29C /* ModelObjectDemoTests */ = {
@@ -224,8 +223,7 @@
 				1B8653531A25039500F7036D /* NSSecureCoding */,
 				1BC62E291A23E0640032D29C /* Supporting Files */,
 			);
-			name = ModelObjectDemoTests;
-			path = MutabilityDemoTests;
+			path = ModelObjectDemoTests;
 			sourceTree = "<group>";
 		};
 		1BC62E291A23E0640032D29C /* Supporting Files */ = {

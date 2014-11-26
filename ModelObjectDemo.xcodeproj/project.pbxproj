@@ -11,6 +11,7 @@
 		1B86534D1A24FDBF00F7036D /* MDMutablePhotoNSSecureCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86534C1A24FDBF00F7036D /* MDMutablePhotoNSSecureCoding.m */; };
 		1B8653501A24FFBE00F7036D /* MDPhotoNSSecureCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86534F1A24FFBE00F7036D /* MDPhotoNSSecureCodingTests.m */; };
 		1B8653521A25018800F7036D /* MDMutablePhotoNSSecureCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8653511A25018800F7036D /* MDMutablePhotoNSSecureCodingTests.m */; };
+		1B8653861A25A99900F7036D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1B8653851A25A99900F7036D /* README.md */; };
 		1BC62E1D1A23E0640032D29C /* ModelObjectDemo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BC62E1C1A23E0640032D29C /* ModelObjectDemo.h */; };
 		1BC62E251A23E0640032D29C /* libModelObjectDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC62E191A23E0640032D29C /* libModelObjectDemo.a */; };
 		1BC62E351A23E07E0032D29C /* MDPhotoNaive.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC62E341A23E07E0032D29C /* MDPhotoNaive.m */; };
@@ -59,6 +60,7 @@
 		1B86534C1A24FDBF00F7036D /* MDMutablePhotoNSSecureCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMutablePhotoNSSecureCoding.m; sourceTree = "<group>"; };
 		1B86534F1A24FFBE00F7036D /* MDPhotoNSSecureCodingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPhotoNSSecureCodingTests.m; sourceTree = "<group>"; };
 		1B8653511A25018800F7036D /* MDMutablePhotoNSSecureCodingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMutablePhotoNSSecureCodingTests.m; sourceTree = "<group>"; };
+		1B8653851A25A99900F7036D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1BC62E191A23E0640032D29C /* libModelObjectDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libModelObjectDemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC62E1C1A23E0640032D29C /* ModelObjectDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelObjectDemo.h; sourceTree = "<group>"; };
 		1BC62E241A23E0640032D29C /* ModelObjectDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelObjectDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -189,6 +191,7 @@
 		1BC62E101A23E0640032D29C = {
 			isa = PBXGroup;
 			children = (
+				1B8653851A25A99900F7036D /* README.md */,
 				1BC62E1B1A23E0640032D29C /* ModelObjectDemo */,
 				1BC62E281A23E0640032D29C /* ModelObjectDemoTests */,
 				1BC62E1A1A23E0640032D29C /* Products */,
@@ -393,6 +396,7 @@
 			files = (
 				1BC62E571A23ED920032D29C /* MDMutablePhotoNSMutableCopying.m in Sources */,
 				1B86534A1A24FD9A00F7036D /* MDPhotoNSSecureCoding.m in Sources */,
+				1B8653861A25A99900F7036D /* README.md in Sources */,
 				1B86534D1A24FDBF00F7036D /* MDMutablePhotoNSSecureCoding.m in Sources */,
 				1BC62E381A23E0E00032D29C /* MDPhotoWithBadCopy.m in Sources */,
 				1BC62E351A23E07E0032D29C /* MDPhotoNaive.m in Sources */,

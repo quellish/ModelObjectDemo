@@ -48,22 +48,22 @@ Instead, to create an immutable property declare it as read only in the public i
 
 Interface
 
-@interface MDPhoto : NSObject
-@property (readonly) NSString	*identifier;
-- (instancetype) initWithIdentifier:(NSString *)anIdentifier;
-@end
+  @interface MDPhoto : NSObject
+  @property (readonly) NSString	*identifier;
+  - (instancetype) initWithIdentifier:(NSString *)anIdentifier;
+  @end
 
 Implementation
 
-@implementation MDPhoto
-@synthesize identifier;
-- (instancetype) initWithIdentifier:(NSString *)anIdentifier {
-if ((self = [super init])){
-identifier = anIdentifier;
-}
-return self;
-}
-@end
+  @implementation MDPhoto
+  @synthesize identifier;
+  - (instancetype) initWithIdentifier:(NSString *)anIdentifier {
+    if ((self = [super init])){
+      identifier = anIdentifier;
+    }
+    return self;
+  }
+  @end
 
 
 There is still a problem with the above implementation. `NSString` is immutable, but it has a mutable subclass within it's [class cluster](https://developer.apple.com/library/ios/documentation/general/conceptual/CocoaEncyclopedia/ClassClusters/ClassClusters.html), `NSMutableString`. Even after `identifier` is set in the intializer it's contents can be changed by another object. To correct this, the incoming value should be copied to capture it's value as an immutable object.
